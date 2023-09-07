@@ -100,3 +100,21 @@ link.removeAttribute('class')
 console.log(link.className)
 
 link.removeAttribute('title')
+
+
+console.dir(link)
+
+link.style.border = '2px solid black'
+link.style.padding = '5px 10px'
+link.style.fontSize = '25px'
+link.style.display = 'inline-block'
+
+link.style = `color: red;
+              border: 2px solid black;
+              padding: 5px 10px;
+              font-size: 25px;
+              display: inline-block;
+              text-decoration: none;
+              text-transform: uppercase;`
+
+//link.style yra stipresnis uz link.style.border ir pan., tad jei jis parasytas apacioje, stilius bus pagal ji, ir pries tai nurodyti link.style.border ar link.style.padding - dings
